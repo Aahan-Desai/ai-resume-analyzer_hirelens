@@ -1,0 +1,8 @@
+﻿
+> typecheck
+> react-router typegen && tsc
+
+app/routes/home.tsx(65,26): error TS2502: 'resume' is referenced directly or indirectly in its own type annotation.
+app/routes/result.$id.tsx(185,34): error TS2304: Cannot find name 'Summary'.
+app/routes/result.$id.tsx(186,34): error TS2304: Cannot find name 'ATS'.
+app/routes/result.$id.tsx(187,34): error TS2304: Cannot find name 'Details'.
